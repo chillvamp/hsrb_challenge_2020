@@ -1,0 +1,16 @@
+state (handcam_hole_tf)
+whole_body.move_end_effector_pose(geometry.pose(z=.15,ei=3.1416,ek=1.57), 'my_frame_hole')
+
+state line to hole
+
+
+
+whole_body.move_end_effector_pose(geometry.pose(z=.15,ei=3.1416,ek=1.57), 'chido')
+
+
+
+
+state place to hole easy grasp
+
+
+whole_body.move_end_effector_pose(geometry.pose(z=.15,ei=1.57,ej=1.57),'chido')

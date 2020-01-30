@@ -1,0 +1,7 @@
+whole_body.move_end_effector_pose(geometry.pose(y=-1,z=.1,ei=3.1416), 'my_frame_hole')
+gripper.set_distance(.08)
+whole_body.move_end_effector_by_line((0, 0, 1),.55)
+whole_body.looking_hand_constraint = True
+
+
+
